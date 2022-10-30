@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Laila', sans-serif;
+}
+
+.card {
+    margin: 20px;
+    padding: 40px;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+}
+
+/* Ini style navbar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: salmon;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* Hero section */
+.layanan,
+.fasilitas,
+.penunjang {
+    width: 30%;
+    padding: 10px;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/* profile */
+#profile {
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.warp {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.text-pro1,
+.text-pro2 {
+    font-size: 12px;
+    justify-content: space-around;
+    width: 40%;
+}
+
+/* Sejarah */
+#sejarah {
+    gap: 10px;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+/* gallery */
+#gallery {
+    text-align: center;
+}
+
+.foto {
+    padding-top: 33px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+
+
+.foto img {
+    width: 400px;
+    padding: 20px;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+}
+
+/* form  */
+#contact {
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
+
+input {
+    width: 500px;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 100px 8px 100px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+footer {
+    margin-top: 42px;
+    color: #fff;
+    text-align: center;
+    background-color: #333;
+    padding: 100px 200px 100px 200px;
+}
